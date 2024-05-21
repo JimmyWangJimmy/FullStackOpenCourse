@@ -1,0 +1,3 @@
+GET http://localhost:3001/api/persons
+
+//GET http://part3phonebookbackend.fly.dev/api/persons

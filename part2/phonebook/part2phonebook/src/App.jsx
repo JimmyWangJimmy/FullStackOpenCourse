@@ -67,6 +67,10 @@ const App = () => {
         setNewNumber('')
         setConductMessage(`Added ${newName}`)
       })
+      .catch(error =>{
+        setConductMessage(`Person Validation Error: ${error.response.data.error}`)
+        console.log(error.response.data.error)
+      })
   
     }
   }

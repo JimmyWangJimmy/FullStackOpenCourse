@@ -1,0 +1,31 @@
+{
+  "name": "part3phonebookbackend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build:ui": "rm -rf dist && cd E:/FullStackCamp/FullStackOpenCourse/part2/phonebook/part2phonebook/ && npm run build && cp -r dist E:/FullStackCampCP/FullStackOpenCourse/part3phonebookbackend",
+    "deploy": "fly deploy",
+    "deploy:full": "npm run build:ui && npm run deploy",
+    "logs:prod": "fly logs --app phonebook-backend",
+    "lint": "eslint ."
+  },
+  "author": "Jimmy Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.5",
+    "@stylistic/eslint-plugin-js": "^1.6.1",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0"
+  }
+}
