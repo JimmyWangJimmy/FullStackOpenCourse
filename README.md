@@ -47,6 +47,26 @@ Skills gained:
 
 ## Part 3
 start date: 2024年4月17日 
-finish date: To be determined
+finish date: 2024年5月21日
 Skill Goals: 
-Skills gained: 
+Skills gained: node backend, Database:MongoDB, mongoose, eslint, Deploy:Fly.io
+{
+    "Node": {
+        "backend": "basic",
+        "express": "basic",
+        "REST": "basic",
+        "middleware": "basic",
+        "routing": "basic",
+        "testing": "basic",
+        "async/await": "basic",
+        "error handling": "basic",
+        "deploying": "basic",
+    },
+    "Database": {
+        "MongoDB": "basic",
+        "mongoose": "basic",
+    },
+    "Tools": {
+        "eslint": "basic",
+    }
+}
