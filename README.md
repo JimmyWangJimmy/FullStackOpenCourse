@@ -48,6 +48,7 @@ Skills gained:
 ## Part 3
 start date: 2024年4月17日 
 finish date: 2024年5月21日
+Time spent: 
 Skill Goals: 
 Skills gained: node backend, Database:MongoDB, mongoose, eslint, Deploy:Fly.io
 {
@@ -70,3 +71,12 @@ Skills gained: node backend, Database:MongoDB, mongoose, eslint, Deploy:Fly.io
         "eslint": "basic",
     }
 }
+
+## Part 4 Test
+Main Content: Testing Express servers, user administration
+start date: 2024年5月22日 16:00:00
+finish date: 
+Time spent: 
+Skill Goals: Test: unit tests, integration tests; User authentication and authorization
+
+Skills gained: 
